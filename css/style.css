@@ -241,3 +241,23 @@ body{
     padding-top: 5px;
     padding-bottom: 5px;
 }
+
+.contacts {
+    display: flex;
+    justify-content: center;
+    margin-left: 120px;
+    margin-right: 120px;
+    padding-bottom: 77px;
+}
+
+.c_list {
+    margin-top: 200px;
+    margin-bottom: 300px;
+}
+
+.c_item {
+    text-align: center;
+    color: azure;
+    padding-bottom: 50px;
+
+}
