@@ -54,7 +54,7 @@ body{
     height: 50px;
     padding-bottom: 5px;
     position: fixed;
-    z-index: 1;
+    z-index: 99;
     display: flex;
     align-items: center;
     background-color: rgba(44, 55, 87, 0.774);
@@ -132,6 +132,7 @@ body{
     margin-left: 70px;
     font-size: larger;
     color: azure;
+    text-decoration: none;
 }
 
 .menu_item:hover {
@@ -199,7 +200,8 @@ body{
     align-items: center;
     width: 100%;
     margin-top: 100px;
-    padding-bottom: 40px;
+    padding-top: 15px;
+    padding-bottom: 20px;
     background-color: rgba(44, 55, 87, 0.774);
 }
 
@@ -207,4 +209,35 @@ body{
 
     margin-top: 12px;
     margin-left: 300px;
+}
+
+
+.dishes {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 45px;
+    margin-top: 120px;
+    color: azure;
+}
+
+.d_list {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.d_item {
+    border: 2px solid azure;
+    border-radius: 8px;
+    background-color:rgba(44, 55, 87, 0.774);
+    padding: 5px 5px 0px 5px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.i_name {
+    text-align: center;
+    tab-size: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
